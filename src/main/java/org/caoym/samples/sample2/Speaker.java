@@ -1,6 +1,6 @@
-package org.caoym.sample2;
+package org.caoym.samples.sample2;
 
-class Speaker{
+class Speaker {
     private String hello = "";
 
     Speaker(String hello){
