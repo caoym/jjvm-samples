@@ -1,13 +1,13 @@
 package org.caoym.samples.sample2;
 
-class Speaker {
+class Speaker implements SpeakerInterface {
     private String hello = "";
 
     Speaker(String hello){
         this.hello = hello;
     }
 
-    public void helloTo(String somebody){
+    public void helloTo(String somebody) {
         System.out.println(this.hello +" "+ somebody);
     }
 }
